@@ -1,0 +1,33 @@
+
+#fon{
+    -fx-font-size: 25px;
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+}
+
+
+#fon:hover{
+    -fx-background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    -fx-animation:slidebg 2s linear infinite;
+    -fx-background-color: yellow;
+    -fx-border-color: red;
+    -fx-color: red;
+
+
+}
+
+#log{
+
+    -fx-border-color: none;
+}
+
+#log:hover{
+    -fx-border-color: white;
+}
+
+
+#text {
+    -fx-color: red;
+    -fx-text-fill: white;
+}
+
